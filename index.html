@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chop Bar — Authentic Nigerian Cuisine</title>
+  <meta name="description" content="Experience the bold, rich flavours of Nigerian cuisine. Fine dining rooted in tradition." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav__logo">Chop Bar</a>
+    <ul class="nav__links">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#catering">Catering</a></li>
+      <li><a href="#reserve" class="nav__cta">Reserve</a></li>
+    </ul>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="mobileClose">✕</button>
+    <ul>
+      <li><a href="#menu" class="mobile-link">Menu</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#catering" class="mobile-link">Catering</a></li>
+      <li><a href="#reserve" class="mobile-link">Reserve</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <img src="./images/hero.jpg" alt="Nigerian food spread" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Lagos · London · Since 2018</p>
+      <h1 class="hero__title">
+        The Taste<br />
+        <em>of Lagos,</em><br />
+        Served Here.
+      </h1>
+      <p class="hero__sub">Bold flavours. Deep roots. Every dish tells a story.</p>
+      <div class="hero__actions">
+        <a href="#reserve" class="btn btn--primary">Reserve a Table</a>
+        <a href="#menu" class="btn btn--ghost">View Menu</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker__track">
+      <span>Jollof Rice</span><span class="ticker__dot">✦</span>
+      <span>Egusi Soup</span><span class="ticker__dot">✦</span>
+      <span>Suya</span><span class="ticker__dot">✦</span>
+      <span>Pounded Yam</span><span class="ticker__dot">✦</span>
+      <span>Pepper Soup</span><span class="ticker__dot">✦</span>
+      <span>Moi Moi</span><span class="ticker__dot">✦</span>
+      <span>Ofada Stew</span><span class="ticker__dot">✦</span>
+      <span>Banga Soup</span><span class="ticker__dot">✦</span>
+      <span>Asun</span><span class="ticker__dot">✦</span>
+      <span>Akara</span><span class="ticker__dot">✦</span>
+      <!-- duplicate for seamless loop -->
+      <span>Jollof Rice</span><span class="ticker__dot">✦</span>
+      <span>Egusi Soup</span><span class="ticker__dot">✦</span>
+      <span>Suya</span><span class="ticker__dot">✦</span>
+      <span>Pounded Yam</span><span class="ticker__dot">✦</span>
+      <span>Pepper Soup</span><span class="ticker__dot">✦</span>
+      <span>Moi Moi</span><span class="ticker__dot">✦</span>
+      <span>Ofada Stew</span><span class="ticker__dot">✦</span>
+      <span>Banga Soup</span><span class="ticker__dot">✦</span>
+      <span>Asun</span><span class="ticker__dot">✦</span>
+      <span>Akara</span><span class="ticker__dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__img-wrap">
+      <img src="./images/about.jpg" alt="Chef preparing Nigerian food" />
+      <div class="about__img-tag">Est. 2018</div>
+    </div>
+    <div class="about__content">
+      <p class="section-eyebrow">Our Story</p>
+      <h2 class="section-title">Born in Lagos.<br /><em>Raised in London.</em></h2>
+      <p class="about__text">
+        What started as a home kitchen in Peckham has grown into one of London's most celebrated Nigerian dining experiences. Chef Adaeze Obi brings three generations of family recipes to every plate — no shortcuts, no compromises.
+      </p>
+      <p class="about__text">
+        Every dish is a love letter to Nigeria. We source our locust beans from Ibadan, our palm oil from Ondo State, and our spices from the markets where our grandmothers shopped.
+      </p>
+      <div class="about__stats">
+        <div class="about__stat">
+          <span class="about__stat-num">200+</span>
+          <span class="about__stat-label">Dishes Served</span>
+        </div>
+        <div class="about__stat">
+          <span class="about__stat-num">6</span>
+          <span class="about__stat-label">Years Running</span>
+        </div>
+        <div class="about__stat">
+          <span class="about__stat-num">4.9★</span>
+          <span class="about__stat-label">Google Rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <div class="menu__header">
+      <p class="section-eyebrow">What We Serve</p>
+      <h2 class="section-title">Our Menu</h2>
+    </div>
+
+    <div class="menu__tabs">
+      <button class="menu__tab active" data-tab="starters">Starters</button>
+      <button class="menu__tab" data-tab="mains">Mains</button>
+      <button class="menu__tab" data-tab="soups">Soups</button>
+      <button class="menu__tab" data-tab="drinks">Drinks</button>
+    </div>
+
+    <div class="menu__panels">
+
+      <!-- STARTERS -->
+      <div class="menu__panel active" id="tab-starters">
+        <div class="menu__grid">
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/suya.jpg" alt="Suya" />
+              <span class="dish-card__badge">Chef's Pick</span>
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Suya Skewers</h3>
+                <span class="dish-card__price">£9</span>
+              </div>
+              <p>Spiced beef skewers grilled over open flame, served with sliced onions & tomatoes.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--1">🌶</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/akara.jpg" alt="Akara" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Akara</h3>
+                <span class="dish-card__price">£7</span>
+              </div>
+              <p>Deep-fried black-eyed pea fritters, crispy outside, soft inside. Served with pepper sauce.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--1">🌶</span>
+                <span class="dish-card__tag">Vegan</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/puff-puff.jpg" alt="Puff Puff" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Puff Puff</h3>
+                <span class="dish-card__price">£5</span>
+              </div>
+              <p>Light, pillowy dough balls dusted with icing sugar. Nigeria's favourite street snack.</p>
+              <div class="dish-card__meta">
+                <span class="dish-card__tag">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/asun.jpg" alt="Asun" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Asun</h3>
+                <span class="dish-card__price">£11</span>
+              </div>
+              <p>Smoked peppered goat meat — charred, spicy, and impossibly tender. A Yoruba classic.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--3">🌶🌶🌶</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAINS -->
+      <div class="menu__panel" id="tab-mains">
+        <div class="menu__grid">
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/jollof-rice.jpg" alt="Jollof Rice" />
+              <span class="dish-card__badge">Most Ordered</span>
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Party Jollof Rice</h3>
+                <span class="dish-card__price">£16</span>
+              </div>
+              <p>Smoky, rich tomato rice cooked over firewood. Served with fried plantain & choice of protein.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--2">🌶🌶</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/pounded-yam.jpg" alt="Pounded Yam" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Pounded Yam & Egusi</h3>
+                <span class="dish-card__price">£18</span>
+              </div>
+              <p>Silky smooth pounded yam paired with melon seed soup cooked with assorted meats.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--2">🌶🌶</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/ofada-rice.jpg" alt="Ofada Rice" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Ofada Rice & Stew</h3>
+                <span class="dish-card__price">£17</span>
+              </div>
+              <p>Unpolished local rice served in banana leaf with designer pepper stew & assorted offal.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--3">🌶🌶🌶</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/moi-moi.jpg" alt="Moi Moi" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Moi Moi</h3>
+                <span class="dish-card__price">£8</span>
+              </div>
+              <p>Steamed bean pudding with eggs, fish & peppers. Comforting and deeply satisfying.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--1">🌶</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOUPS -->
+      <div class="menu__panel" id="tab-soups">
+        <div class="menu__grid">
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/pepper-soup.jpg" alt="Pepper Soup" />
+              <span class="dish-card__badge">House Special</span>
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Pepper Soup</h3>
+                <span class="dish-card__price">£14</span>
+              </div>
+              <p>Aromatic broth with African spices and your choice of catfish, goat, or chicken.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--3">🌶🌶🌶</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/oha-soup.jpg" alt="Oha Soup" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Oha Soup</h3>
+                <span class="dish-card__price">£16</span>
+              </div>
+              <p>Indigenous Igbo soup made with Ora leaves, cocoyam & assorted meats. Serve with swallow.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--2">🌶🌶</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/banga-soup.jpg" alt="Banga Soup" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Banga Soup</h3>
+                <span class="dish-card__price">£17</span>
+              </div>
+              <p>Rich palm nut soup from the Niger Delta, cooked low and slow with dried fish & spices.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--2">🌶🌶</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/efo-riro.jpg" alt="Efo Riro" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Efo Riro</h3>
+                <span class="dish-card__price">£15</span>
+              </div>
+              <p>Yoruba spinach stew, loaded with assorted meats and stockfish in a rich pepper base.</p>
+              <div class="dish-card__meta">
+                <span class="spice spice--2">🌶🌶</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DRINKS -->
+      <div class="menu__panel" id="tab-drinks">
+        <div class="menu__grid">
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/chapman.jpg" alt="Chapman" />
+              <span class="dish-card__badge">Fan Favourite</span>
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Chapman</h3>
+                <span class="dish-card__price">£6</span>
+              </div>
+              <p>Nigeria's iconic party drink — a fruity, bubbly blend of Fanta, Ribena, Angostura bitters & fruit.</p>
+              <div class="dish-card__meta">
+                <span class="dish-card__tag">Non-Alcoholic</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/zobo.jpg" alt="Zobo" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Zobo (Hibiscus)</h3>
+                <span class="dish-card__price">£5</span>
+              </div>
+              <p>Deep crimson hibiscus drink with ginger, cloves, and pineapple. Served chilled.</p>
+              <div class="dish-card__meta">
+                <span class="dish-card__tag">Non-Alcoholic</span>
+                <span class="dish-card__tag">Vegan</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/palm-wine.jpg" alt="Palm Wine" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Palm Wine</h3>
+                <span class="dish-card__price">£8</span>
+              </div>
+              <p>Fresh, mildly fermented palm sap. Earthy, sweet, naturally effervescent. Truly authentic.</p>
+              <div class="dish-card__meta">
+                <span class="dish-card__tag">Alcoholic</span>
+              </div>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card__img">
+              <img src="./images/kunu.jpg" alt="Kunu" />
+            </div>
+            <div class="dish-card__body">
+              <div class="dish-card__top">
+                <h3>Kunu Aya</h3>
+                <span class="dish-card__price">£5</span>
+              </div>
+              <p>Tiger nut milk blended with dates and coconut. Creamy, nourishing, and utterly refreshing.</p>
+              <div class="dish-card__meta">
+                <span class="dish-card__tag">Non-Alcoholic</span>
+                <span class="dish-card__tag">Vegan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="gallery__header">
+      <p class="section-eyebrow">From Our Kitchen</p>
+      <h2 class="section-title">A Feast for the Eyes</h2>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall">
+        <img src="./images/gallery-1.jpg" alt="Food spread" />
+      </div>
+      <div class="gallery__item">
+        <img src="./images/gallery-2.jpg" alt="Nigerian stew" />
+      </div>
+      <div class="gallery__item">
+        <img src="./images/gallery-3.jpg" alt="Grilled meat" />
+      </div>
+      <div class="gallery__item gallery__item--wide">
+        <img src="./images/gallery-4.jpg" alt="Restaurant interior" />
+      </div>
+      <div class="gallery__item">
+        <img src="./images/gallery-5.jpg" alt="Plantain" />
+      </div>
+    </div>
+  </section>
+
+  <!-- CATERING -->
+  <section class="catering" id="catering">
+    <div class="catering__bg">
+      <img src="./images/catering.jpg" alt="Event catering" />
+      <div class="catering__overlay"></div>
+    </div>
+    <div class="catering__content">
+      <p class="section-eyebrow section-eyebrow--light">Catering</p>
+      <h2 class="section-title section-title--light">Feed Your<br /><em>Event.</em></h2>
+      <p class="catering__sub">From intimate gatherings to 500-guest weddings — we bring the flavour of Nigeria to your occasion.</p>
+      <div class="catering__cards">
+        <div class="catering__card">
+          <span class="catering__card-icon">🏠</span>
+          <h3>Private Dining</h3>
+          <p>Intimate dinners, birthday celebrations, and family occasions. Up to 30 guests.</p>
+          <span class="catering__card-from">From £450</span>
+        </div>
+        <div class="catering__card catering__card--featured">
+          <span class="catering__card-icon">🏢</span>
+          <h3>Corporate Events</h3>
+          <p>Office lunches, team events, and client entertaining. 30–200 guests.</p>
+          <span class="catering__card-from">From £1,200</span>
+        </div>
+        <div class="catering__card">
+          <span class="catering__card-icon">💍</span>
+          <h3>Weddings</h3>
+          <p>Traditional & modern Nigerian wedding menus. Full-service, 200+ guests.</p>
+          <span class="catering__card-from">Custom Quote</span>
+        </div>
+      </div>
+      <a href="#contact" class="btn btn--primary">Enquire Now</a>
+    </div>
+  </section>
+
+  <!-- RESERVE -->
+  <section class="reserve" id="reserve">
+    <div class="reserve__info">
+      <p class="section-eyebrow">Come Dine With Us</p>
+      <h2 class="section-title">Make a<br /><em>Reservation</em></h2>
+      <div class="reserve__details">
+        <div class="reserve__detail-item">
+          <span class="reserve__detail-label">Lunch</span>
+          <span class="reserve__detail-value">Tue – Sun, 12:00 – 15:30</span>
+        </div>
+        <div class="reserve__detail-item">
+          <span class="reserve__detail-label">Dinner</span>
+          <span class="reserve__detail-value">Tue – Sun, 18:00 – 22:30</span>
+           </div>
+        <div class="reserve__detail-item">
+          <span class="reserve__detail-label">Address</span>
+          <span class="reserve__detail-value">47 Rye Lane, Peckham, London SE15 4ST</span>
+        </div>
+        <div class="reserve__detail-item">
+          <span class="reserve__detail-label">Phone</span>
+          <span class="reserve__detail-value">+44 20 7946 0312</span>
+        </div>
+      </div>
+      <a href="https://wa.me/442079460312" class="btn btn--whatsapp" target="_blank" rel="noopener">
+        <i class="ph-fill ph-whatsapp-logo" style="font-size:20px;"></i>
+        WhatsApp Us
+      </a>
+    </div>
+    <div class="reserve__form-wrap">
+      <form class="reserve__form" id="reserveForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Adaeze" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="Obi" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@email.com" required />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" id="date" required />
+          </div>
+          <div class="form-group">
+            <label for="time">Time</label>
+            <select id="time" required>
+              <option value="">Select time</option>
+              <option>12:00</option>
+              <option>12:30</option>
+              <option>13:00</option>
+              <option>13:30</option>
+              <option>18:00</option>
+              <option>18:30</option>
+              <option>19:00</option>
+              <option>19:30</option>
+              <option>20:00</option>
+              <option>20:30</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="guests">Number of Guests</label>
+          <select id="guests" required>
+            <option value="">Select guests</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 – 8</option>
+            <option>9 – 12</option>
+            <option>Large party (12+)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="notes">Special Requests</label>
+          <textarea id="notes" rows="3" placeholder="Dietary requirements, occasions, seating preferences…"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Confirm Reservation</button>
+        <p class="form-note">We'll confirm your booking within 2 hours.</p>
+      </form>
+      <div class="reserve__success" id="reserveSuccess">
+        <div class="reserve__success-icon">✓</div>
+        <h3>Reservation Received!</h3>
+        <p>We'll confirm your table within 2 hours. See you soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="reviews__header">
+      <p class="section-eyebrow">What People Say</p>
+      <h2 class="section-title">Guest Reviews</h2>
+    </div>
+    <div class="reviews__track-wrap">
+      <div class="reviews__track">
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p>"The party jollof rice took me straight back to Lagos. Smoky, rich, perfect. I've been back four times."</p>
+          <span class="review-card__name">— Chisom A., Google</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p>"Brought my non-Nigerian colleagues here and they were blown away. The suya and Chapman combo is unbeatable."</p>
+          <span class="review-card__name">— Marcus T., TripAdvisor</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p>"Best egusi soup outside of Nigeria. Full stop. The ambience is beautiful and the service is exceptional."</p>
+          <span class="review-card__name">— Folake B., Google</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p>"We booked the wedding catering package and it was flawless. Every guest asked for the chef's contact. 10/10."</p>
+          <span class="review-card__name">— Tunde & Amaka O., Trustpilot</span>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p>"The pepper soup warmed my soul on a cold London evening. Authentic and deeply comforting. Will return."</p>
+          <span class="review-card__name">— Sarah M., Google</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <p class="footer__logo">Chop Bar</p>
+        <p class="footer__tagline">Bold flavours. Deep roots.</p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Instagram">
+            <i class="ph-fill ph-instagram-logo" style="font-size:18px;"></i>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <i class="ph-fill ph-facebook-logo" style="font-size:18px;"></i>
+          </a>
+          <a href="#" aria-label="TikTok">
+            <i class="ph-fill ph-tiktok-logo" style="font-size:18px;"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer__nav">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Our Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#catering">Catering</a></li>
+          <li><a href="#reserve">Reservations</a></li>
+        </ul>
+      </div>
+      <div class="footer__nav">
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon: Closed</li>
+          <li>Tue – Fri: 12:00 – 22:30</li>
+          <li>Sat – Sun: 11:00 – 23:00</li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Find Us</h4>
+        <p>47 Rye Lane<br />Peckham, London<br />SE15 4ST</p>
+        <p style="margin-top:1rem;">+44 20 7946 0312</p>
+        <p>hello@chopbar.co.uk</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2024 Chop Bar. All rights reserved.</p>
+      <p>Built with love for Nigerian food culture.</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FAB -->
+  <a href="https://wa.me/442079460312" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="ph-fill ph-whatsapp-logo" style="font-size:26px;"></i>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
