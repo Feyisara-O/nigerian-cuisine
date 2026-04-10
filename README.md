@@ -158,8 +158,8 @@ This project demonstrates skills relevant to:
 
 **Feyisara** — Frontend Developer & Designer
 
-- GitHub: [@Feyisara-o](https://github.com/Feyisara-o)
-- LinkedIn: [linkedin.com/in/feyisara](https://linkedin.com/in/feyisara)
+- GitHub: [@Feyisara-O](https://github.com/Feyisara-o)
+- LinkedIn: [linkedin.com/in/feyisara](https://www.linkedin.com/in/mofeyisara-okunola-73121b277?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 - Upwork: [upwork.com/freelancers/feyisara](https://upwork.com/freelancers/feyisara)
 
 ---
