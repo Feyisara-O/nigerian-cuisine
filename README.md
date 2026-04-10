@@ -8,13 +8,13 @@
 <!-- Tip: Take a full-page screenshot using Chrome DevTools > Capture full size screenshot -->
 <!-- Recommended tool: GoFullPage Chrome extension or Awesome Screenshot -->
 
-![Chop Bar Preview](./images/preview.png)
+![Chop Bar Preview](preview.jpg)
 
 ---
 
 ## Live Demo
 
-🔗 [View Live Site](https://feyisara-o.github.io/chop-bar/)
+🔗 [View Live Site](https://feyisara-o.github.io/nigerian-cuisine/)
 
 ---
 
